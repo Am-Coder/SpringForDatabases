@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <div>Add Student:</div>
+            <form method="get" action="/add">
+                Give Roll-No:
+                <input type="text" name="id" required>
+                <br><br>
+                
+                Give first name:
+                <input type="text" name="firstName" required>
+                <br><br>
+                
+                Give last name:
+                <input type="text" name="lastName" required>
+                <br><br>
+                
+                Give the year:
+                <input type="text" name="batchYear">
+                <br><br>
+                
+                Give the laptop id:
+                <input type="text" name="laptopId">
+                <br><br>
+
+                Give the laptop company:
+                <input type="text" name="company">
+                                <br><br>
+
+                <input type="submit" value="Add">
+            </form>
+            
+        </div>
+                <br><br>
+                <br><br>
+
+        <div>
+            <div>Find Student</div>
+            <form method="get" action="/find">
+                Give Roll-No:
+                <input type="text" name="id" required>
+                <br><br>
+                
+                <input type="submit" value="Find">
+                <br><br>
+            </form>            
+        </div>
+                        <br><br>
+                <br><br>
+
+        <div>
+            <div>Delete Student</div>
+            <form method="get" action="/delete">
+                Give Roll-No:
+                <input type="text" name="id" required>
+                <br><br>
+                
+                <input type="submit" value="Delete">
+                <br><br>
+            </form>   
+        </div>
+                        <br><br>
+                <br><br>
+
+        <div>
+            <div>Update Student</div>
+            <form method="get" action="/update">
+                Give Roll-No:
+                <input type="text" name="id" required>
+                <br><br>
+                Give the batch:
+                <input type="text" name="batchYear">
+                <br><br>
+                <input type="submit" value="Update">
+                <br><br>
+            </form>   
+        </div>
+                
+        
+    </body>
+</html>
