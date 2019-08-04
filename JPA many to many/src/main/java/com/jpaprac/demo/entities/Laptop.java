@@ -28,7 +28,7 @@ public class Laptop {
     @Column(name="company")
     private String company;
 
-    @ManyToMany
+    @ManyToMany(mappedBy = "laptop")
     private List<Student> student;
 
     public List<Student> getStudent() {
